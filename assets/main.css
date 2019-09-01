@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(38, 39, 44);
+    color: #999CA3 !important;
+}
+
+.active {
+    color: rgb(163, 120, 120) !important;
+}
+
+.darkalert {
+    background-color: rgb(29, 30, 34);
+    height: 80px;
+}
+
+.marginauto {
+    margin: 0px auto;
+    width: 95%;
+    min-height: 400px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header {
+    background: url(images/header.jpg) top center no-repeat;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+    padding: 80px 0px 0px 0px;
+}
+
+.navbar-bg {
+    background-color: rgb(42, 43, 49);
+}
+
+.userbar-bg {
+    background-color: rgb(29, 30, 34);
+}
+
+.server-status {
+    color: rgb(124, 161, 230);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.scrollbox {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.cardshadow {
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.27);
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.27);
+}
+
+.bg-dark {
+    background: rgb(83,81,106);
+    background: -moz-linear-gradient(90deg, rgba(83,81,106,.2) 0%, rgba(38,39,44,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(83,81,106,.2) 0%, rgba(38,39,44,1) 100%);
+    background: linear-gradient(90deg, rgba(83,81,106,.2) 0%, rgba(38,39,44,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53516a",endColorstr="#26272c",GradientType=1);
+}
+
+.card {
+    border: 0px;
+    margin-bottom: 50px;
+}
+
+.footerimg {
+    background: url(images/footer.jpg) top center no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 100px 0px 100px 0px;
+}
+
+.footnav {
+    color: rgb(124, 161, 230) !important;
+}
+
+.footer-img {
+    width: 70vw;
+}
+
+.download-btn-cont {
+    width: 100%;
+    text-align: center;
+}
+
+    .download-btn-cont button {
+        color: white;
+        font-size: 28px;
+        background-color: #661313;
+        margin-top: 10px;
+    }
+
+        .download-btn-cont button:hover {
+            background-color: #471313;
+            color: white;
+        }
+
+.nav-bar-top {
+    padding-top: unset;
+    padding-bottom: unset;
+}
+
+.nav-bar-top, body {
+    background-image: linear-gradient(to right, #000000,#471313, #661313,#471313,#000000,#661313, #000000);
+}
+
+    .nav-bar-top a.navbar-brand {
+        padding: 8px 0;
+    }
+
+.header-tag {
+    color: rgba(255,255,255,.8);
+    font-size: 20px;
+}
